@@ -1,0 +1,68 @@
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.game-header h1 {
+  color: var(--primary-color);
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.game-header p {
+  color: var(--light-text);
+  font-size: 18px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.error-container {
+  background-color: #ffebee;
+  color: #f44336;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.error-container button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.challenge-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.challenge-btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.challenge-btn:hover {
+  background-color: #3a5a8c;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,68 @@
+.header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 16px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.logo h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.score-display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.score {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.correct {
+  color: #4caf50;
+}
+
+.incorrect {
+  color: #f44336;
+}
+
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 24px;
+  }
+  
+  .username {
+    font-size: 14px;
+  }
+  
+  .score {
+    font-size: 12px;
+  }
+}
